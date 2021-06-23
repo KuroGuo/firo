@@ -202,6 +202,14 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
         <source>Passphrase can't be empty.</source>
         <translation>密码口令不能为空。</translation>
     </message>
+    <message>
+        <source>RAP addresses to be created:</source>
+        <translation>将要创建的 RAP 地址数量：</translation>
+    </message>
+    <message>
+        <source>The number of RAP addresses will be created in the wallet for the initial blockchain scan</source>
+        <translation>将在钱包中创建的 RAP 地址的数量，用于初始区块链扫描</translation>
+    </message>
 </context>
 <context>
     <name>AddressTableModel</name>
