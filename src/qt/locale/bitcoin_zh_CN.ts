@@ -735,12 +735,20 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
         <source>Clear all fields of the form.</source>
         <translation>清除此表单的所有字段。</translation>
     </message>
+    <message>
+        <source>RAP address creation failed with error: "%1"</source>
+        <translation>创建RAP地址失败，出现错误：「%1」</translation>
+    </message>
+    <message>
+        <source>Double click on Label to edit</source>
+        <translation>双击标签进行编辑</translation>
+    </message>
 </context>
 <context>
     <name>PcodeModel</name>
     <message>
-        <source>Payment code</source>
-        <translation>支付码</translation>
+        <source>RAP address</source>
+        <translation>RAP 地址</translation>
     </message>
     <message>
         <source>Label</source>
@@ -801,12 +809,8 @@ Once this fee is paid, all future sends to this RAP address do not incur any add
         <translation>余额不足</translation>
     </message>
     <message>
-        <source>&lt;i&gt;Please wait until the connection transaction has confirmed.&lt;/br&gt;
-It is safe to close this dialog box while waiting for the confirmation.&lt;/br&gt;
-Once confirmed, you can send your FIRO to the RAP address on the Send tab.&lt;/i&gt;</source>
-        <translation>&lt;i&gt;请等待，直到连接交易得到确认。&lt;/br&gt;
-在等待确认的过程中，关闭这个对话框是安全的。&lt;/br&gt;
-一旦确认，你可以将你的 FIRO 发送到发送选项卡上的 RAP 地址。&lt;/i&gt;</translation>
+        <source>&lt;i&gt;Please wait until the connection transaction has confirmed.&amp;nbsp;It is safe to close this dialog box while waiting for the confirmation.&amp;nbsp;Once confirmed, you can send your FIRO to the RAP address on the Send tab.&lt;/i&gt;</source>
+        <translation>&lt;i&gt;请等待，直到连接交易得到确认。在等待确认的过程中，关闭这个对话框是安全的。一旦确认，你可以将你的 FIRO 发送到发送选项卡上的 RAP 地址。&lt;/i&gt;</translation>
     </message>
     <message>
         <source>Waiting for confirmation</source>
@@ -821,8 +825,8 @@ Once confirmed, you can send your FIRO to the RAP address on the Send tab.&lt;/i
         <translation>准备就绪</translation>
     </message>
     <message>
-        <source>Send to RAP payment code</source>
-        <translation>发送到 RAP 支付码</translation>
+        <source>Send to RAP address</source>
+        <translation>发送到 RAP 地址</translation>
     </message>
     <message>
         <source>Lelantus balance</source>
@@ -845,7 +849,7 @@ Once confirmed, you can send your FIRO to the RAP address on the Send tab.&lt;/i
         <translation>取消</translation>
     </message>
     <message>
-        <source>Sending funds to a RAP address requires a notification transaction to be sent by the payer prior to the first payment.
+        <source>Sending funds to a RAP address requires a notification transaction to be sent by the payer prior to the first payment.&#32;
 Notification transactions use Lelantus facilities to enhance privacy.
 After the notification transaction is received by the RAP address issuer, funds can be privately sent to the RAP secret addresses.
 </source>
