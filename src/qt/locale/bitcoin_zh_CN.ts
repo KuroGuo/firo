@@ -1594,6 +1594,14 @@ After the notification transaction is received by the RAP address issuer, funds 
         <source>The supplied proxy address is invalid.</source>
         <translation>提供的代理服务器地址无效。</translation>
     </message>
+    <message>
+        <source>Confirm Reindex Lelantus</source>
+        <translation>确认重新索引 Lelantus</translation>
+    </message>
+    <message>
+        <source>Warning: On restart, this setting will wipe your transaction list, reindex the blockchain, and restore the list from the seed in your wallet. This will likely take a few hours. Are you sure?</source>
+        <translation>警告：在重新启动时，该设置将擦除你的交易列表，重新索引区块链，并从你钱包中的种子恢复列表。这可能需要几个小时。你确定吗？</translation>
+    </message>
 </context>
 <context>
     <name>AutomintNotification</name>
