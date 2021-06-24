@@ -227,6 +227,13 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
     </message>
 </context>
 <context>
+    <name>PcodeAddressTableModel</name>
+    <message>
+        <source>RAP payment code</source>
+        <translation>RAP 支付码</translation>
+    </message>
+</context>
+<context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
@@ -716,6 +723,10 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
         <translation>标签不应为空。</translation>
     </message>
     <message>
+        <source>The label should be unique.</source>
+        <translation>标签应该是唯一的。</translation>
+    </message>
+    <message>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
@@ -1080,6 +1091,22 @@ After the notification transaction is received by the RAP address issuer, funds 
     <message>
         <source>New key generation failed.</source>
         <translation>产生新的密钥失败了。</translation>
+    </message>
+    <message>
+        <source>New RAP payment code</source>
+        <translation>新建 RAP 支付码</translation>
+    </message>
+    <message>
+        <source>Edit RAP payment code</source>
+        <translation>编辑 RAP 支付码</translation>
+    </message>
+    <message>
+        <source>RAP address</source>
+        <translation>RAP 地址</translation>
+    </message>
+    <message>
+        <source>New RAP address validation failed.</source>
+        <translation>新建 RAP 地址验证失败。</translation>
     </message>
 </context>
 <context>
@@ -3886,6 +3913,22 @@ After the notification transaction is received by the RAP address issuer, funds 
     <message>
         <source>Send Coins</source>
         <translation>发送飞熔币</translation>
+    </message>
+    <message>
+        <source>You have received a payment to a RAP address, please unlock your wallet to receive.</source>
+        <translation>你收到一笔到 RAP 地址的付款，请解锁你的钱包以接收。</translation>
+    </message>
+    <message>
+        <source>RAP address payment</source>
+        <translation>RAP 地址付款</translation>
+    </message>
+    <message>
+        <source>RAP addresses require you to unlock your wallet every time a payment to it is received.</source>
+        <translation>RAP 地址要求你在每次收到付款时解锁你的钱包。</translation>
+    </message>
+    <message>
+        <source>If you do not enter your password now, you will need to rescan your wallet to receive your FIRO.&lt;br/&gt;&lt;br/&gt;Re-enter your password?</source>
+        <translation>如果你现在不输入密码，你将需要重新扫描你的钱包来接收你的 FIRO。&lt;br/&gt;&lt;br/&gt;重新输入密码？</translation>
     </message>
 </context>
 <context>
