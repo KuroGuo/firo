@@ -23,7 +23,7 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>关闭(&amp;l)</translation>
+        <translation>关闭(&amp;L)</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>选择</translation>
+        <translation>选择(&amp;H)</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -71,15 +71,15 @@
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>复制地址</translation>
+        <translation>复制地址(&amp;C)</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>复制标签</translation>
+        <translation>复制标签(&amp;L)</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>编辑</translation>
+        <translation>编辑(&amp;E)</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -104,6 +104,10 @@
     <message>
         <source>RAP addresses</source>
         <translation>RAP 地址</translation>
+    </message>
+    <message>
+        <source>&amp;Copy RAP address</source>
+        <translation>复制 RAP 地址(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -760,7 +764,7 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
     </message>
     <message>
         <source>RAP address creation failed with error: "%1"</source>
-        <translation>创建RAP地址失败，出现错误：「%1」</translation>
+        <translation>创建 RAP 地址失败，出现错误：「%1」</translation>
     </message>
     <message>
         <source>Double click on Label to edit</source>
@@ -3904,6 +3908,14 @@ After the notification transaction is received by the RAP address issuer, funds 
     <message>
         <source>There was an error trying to broadcast the message: %1</source>
         <translation>尝试广播该消息时出错：%1</translation>
+    </message>
+    <message>
+        <source>Copy RAP address/label</source>
+        <translation>复制 RAP 地址/标签</translation>
+    </message>
+    <message>
+        <source>Reconsider BIP47 transaction</source>
+        <translation>重新考虑 BIP47 交易</translation>
     </message>
 </context>
 <context>
