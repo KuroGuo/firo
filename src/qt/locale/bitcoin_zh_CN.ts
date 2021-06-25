@@ -232,6 +232,10 @@ Advanced: If you don't wish to generate a wallet with a seed phrase backup (not 
         <source>RAP payment code</source>
         <translation>RAP 支付码</translation>
     </message>
+    <message>
+        <source>Copy RAP address</source>
+        <translation>复制 RAP 地址</translation>
+    </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
